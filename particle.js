@@ -1,5 +1,5 @@
-let sizeMin = 0.1;
-let sizeMax = 4;
+let sizeMin = 0.2;
+let sizeMax = 6;
 export class Particle {
     constructor(x, y, canvasWidth, canvasHeight, invertedBackgroundImage) {
         // 초기 좌표: (파티클 생성 시) 무작위 위치
