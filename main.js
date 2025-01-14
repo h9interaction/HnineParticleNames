@@ -75,7 +75,7 @@ class CanvasManager {
         this.nextImageLoaded = false;
 
         // 파티클 생성 간격
-        this.pixelSteps = 4;
+        this.pixelSteps = 9;
 
         // 텍스트 모드 지속 시간 (원 예시에서 12초)
         this.modeDurations = { text: 12000 };
@@ -83,7 +83,7 @@ class CanvasManager {
         // 폰트 스타일
         this.rightMargin = 200;
         this.bottomMargin = 50;
-        this.fontSize = 140;
+        this.fontSize = 200;
         this.letterSpacing = -5;
         this.fontLineHeight = 0.9;
         this.fontName = "Pretendard";
